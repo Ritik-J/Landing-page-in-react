@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+body {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.logo img {
+    height: 60px;
+}
+
+ul {
+    list-style: none;
+    display: contents;
+    cursor: pointer;
+}
+li:hover {
+    color: rgb(196, 39, 39);
+}
+
+button {
+    height: 30px;
+    width: 50px;
+    background-color: rgb(196, 39, 39);
+    color: white;
+    padding: 2px;
+    font-family: "Poetsen One", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-container h1 {
+    font-size: 80px;
+}
+
+.left-container p {
+    color: darkslategrey;
+    font-size: larger;
+}
+
+.btn {
+    display: flex;
+}
+
+.btn .shopbtn {
+    width: max-content;
+    padding: 2px;
+}
+
+.btn .categorybtn {
+    width: max-content;
+    padding: 2px;
+    margin-left: 30px;
+}
+
+.shop-site .amazon {
+    margin-left: 10px;
+    filter: brightness(50%);
+    cursor: pointer;
+}
+
+.amazon:hover {
+    filter: brightness(100%);
+}
+
+.shop-site .flipkart {
+    filter: brightness(50%);
+    cursor: pointer;
+}
+.flipkart:hover {
+    filter: brightness(100%);
+}
